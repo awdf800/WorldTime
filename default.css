@@ -1,0 +1,58 @@
+﻿body {
+    /* 將此取消註解以允許捲動及縮放
+  touch-action: manipulation;
+  */
+    background-color: #f2f2f2;
+    text-align: center;
+
+    font-family:monospace;
+}
+
+.P {
+    background-color: #172c2e;
+    color:greenyellow;
+}
+
+h2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.World_Clock {
+    width: 600px;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 500;
+    }
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+li {
+    border: 2px solid #10171c;
+    outline-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 40px;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     }
+  .name{
+        letter-spacing:2px;
+        font-size:36px;
+    }
+    .date{
+        text-align:left;
+        font-size:16px;
+    }
+
+    .time{
+        font-size:72px;
+    }
